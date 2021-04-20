@@ -12,8 +12,7 @@ tags:
   - RoE
   - oRAN
 ---
-**Author : Sounak Mukherjee**  
-**Role : Technical Marketing Engineer | 5G | Mobile Fronthaul**
+
 
 With the huge amount of technology innovation in the Radio Access Network driven by need for higher bandwidth, larger radio channels, increased network density, lower latency, power efficiency and enhanced inter-cell coordination (to name a few), every mobile operator is examining possible architectural modifications in their network. Exploring the large benefits of Centralized and/or Cloud/Virtualized RAN, Cisco has made successful inroads into the RAN space with a Packet Fronthaul product of their own.  
 
@@ -60,4 +59,7 @@ While you can take a look at the Data Sheet of these models [here](https://www.c
 
 If you are interested in the Cell Site Router, you can already connect with us to place an order. The device is running Cisco’s IOS-XR code base which is our common operating system across the physical and virtual platforms, and it is optimized for enhanced performance and emerging market needs.  
 
-We will follow this up with multiple blogs on this platform, going in-depth into the configuration and capabilities of the platform, so watch out for this space.
+We will follow this up with multiple blogs on this platform, going in-depth into the configuration and capabilities of the platform, so watch out for this space.  
+
+**Author : Sounak Mukherjee**  
+**Role : Technical Marketing Engineer | 5G | Mobile Fronthaul**
