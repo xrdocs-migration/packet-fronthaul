@@ -22,8 +22,7 @@ Even though there are existing (sub-optimal) Fronthaul solutions in the industry
 7. Topology Independence (Ring, Mesh, Point to Point – Everything can be supported with SR-MPLS based Transport)  
 
 Along with these advantages, the product is consistent with Cisco’s End to End IP network strategy built to run on a [Converged SDN Transport](https://www.cisco.com/c/en/us/solutions/service-provider/converged-sdn-transport.html) architecture. This essentially extends Cisco’s transport architecture to the Radio Access Network, seamlessly. If we are to focus only on the RAN, the Packet Fronthaul portfolio can support legacy LTE (CPRI Based), New Radio (5G eCPRI), oRAN (7.2x) and Enterprise (Ethernet) all in one platform.
-
-
+  
 
 ![FH_2.png]({{site.baseurl}}/images/FH_2.png)
   
