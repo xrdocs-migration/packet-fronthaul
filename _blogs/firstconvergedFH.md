@@ -16,15 +16,7 @@ tags:
 
 With the huge amount of technology innovation in the Radio Access Network driven by need for higher bandwidth, larger radio channels, increased network density, lower latency, power efficiency and enhanced inter-cell coordination (to name a few), every mobile operator is examining possible architectural modifications in their network. Exploring the large benefits of Centralized and/or Cloud/Virtualized RAN, Cisco has made successful inroads into the RAN space with a Packet Fronthaul product of their own.  
 
-<html>
-   <head>
-      <title>Fronthaul Options</title>
-   </head>
-   <body>
-      <img src = "https://github.com/xrdocs/packet-fronthaul/tree/gh-pages/images/FH_1.png"
-      alt = "Fronthaul Options" height = "250" width = "250" />
-   </body>
-</html>
+<html><head><title>Fronthaul Options</title></head><body><img src = "https://github.com/xrdocs/packet-fronthaul/tree/gh-pages/images/FH_1.png"alt = "Fronthaul Options" height = "250" width = "250" /></body></html>
   
   
 Even though there are existing (sub-optimal) Fronthaul solutions in the industry, there were a bunch of reasons that drove Cisco’s decision to develop a Packet fronthaul solution, some of them being:  
