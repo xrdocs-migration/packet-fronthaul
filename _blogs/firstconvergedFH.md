@@ -61,5 +61,11 @@ If you are interested in the Cell Site Router, you can already connect with us t
 
 We will follow this up with multiple blogs on this platform, going in-depth into the configuration and capabilities of the platform, so watch out for this space.  
 
+---------------------------------------------------------------
+
+
 **Author : Sounak Mukherjee**  
 **Role : Technical Marketing Engineer | 5G | Mobile Fronthaul**
+
+
+---------------------------------------------------------------
