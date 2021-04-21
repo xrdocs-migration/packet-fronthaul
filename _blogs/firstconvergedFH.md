@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 date: '2021-03-26 10:09 +0530'
 title: Industry’s first Converged Packet Fronthaul Solution – The NCS540-FH
 author: Sounak Mukherjee
@@ -11,6 +11,7 @@ tags:
   - eCPRI
   - RoE
   - oRAN
+excerpt: A brief description of Cisco's Converged Packet Fronthaul Portfolio
 ---
 
 
