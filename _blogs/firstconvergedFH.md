@@ -14,12 +14,12 @@ tags:
 ---
 
 
-With the huge amount of technology innovation in the Radio Access Network driven by need for higher bandwidth, larger radio channels, increased network density, lower latency, power efficiency and enhanced inter-cell coordination (to name a few), every mobile operator is examining possible architectural modifications in their network. Exploring the large benefits of Centralized and/or Cloud/Virtualized RAN, Cisco has made successful inroads into the RAN space with a Packet Fronthaul product of their own.  
+With the enormous amount of technology innovation in the Radio Access Network driven by the need for higher bandwidth, larger radio channels, increased network density, lower latency, power efficiency and enhanced inter-cell coordination (to name a few), every mobile operator is examining possible architectural modifications in their network. Exploring the large benefits of Centralized and/or Cloud/Virtualized RAN, Cisco has made successful inroads into the RAN space with a Packet Fronthaul product of their own.  
 
 ![FH_1.png]({{site.baseurl}}/images/FH_1.png)
  
   
-Even though there are existing (sub-optimal) Fronthaul solutions in the industry, there were a bunch of reasons that drove Cisco’s decision to develop a Packet fronthaul solution, some of them being:  
+Even though there are existing (sub-optimal) Fronthaul solutions in the industry, there were a number of reasons that has driven Cisco’s decision to develop a Packet fronthaul solution, with some of them being:  
 1. Service Convergence : 4G/5G Wireless Fronthaul, Midhaul, Backhaul And Wireline
 2. Reduced Total Cost of Ownership as qualified by [ACG Research](https://www.cisco.com/c/dam/en/us/solutions/collateral/service-provider/mobile-internet/acg-fronthaul-architectures-for-5g-networks.pdf)  
 3. High Speed and ultra-low latency forwarding with Stat-Muxing benefits
@@ -36,7 +36,7 @@ Along with these advantages, the product is consistent with Cisco’s End to End
   
   
 Now, that we have understood the product placement and development reasoning, let me introduce the actual products to you. The Cisco **NCS540-FH** or NCS540 Fronthaul portfolio is based on two products, a Cell Site Router or the **N540-FH-CSR-SYS** and the Aggregation router or the **N540-FH-AGG-SYS**. The Cell Site router, as the name suggests, sits at a Cell Site (inside a Cabinet) and can carry 300 Gbps of ingress/egress traffic. It is capable of packetizing legacy (LTE based) CPRI traffic using IEEE 1914.3 Radio over Ethernet technology and carrying it on a point-to-point pseudo wire over an IP/Ethernet network.  
-This is the first ever Cisco platform capable of processing and packetizing CPRI constant rate bit streams. The Aggregation router sits at a Far Edge Data Center (or a Centralized Hub Site) and can process 900 Gbps of ingress/egress traffic. It has the same capabilities as the Cell Site Router but can also be used for aggregating multiple cell site routers and connecting your Fronthaul to the Midhaul/Backhaul network.
+This is the first ever Cisco platform capable of processing and packetizing CPRI constant rate bit streams. The Aggregation router sits at a Far Edge Data Center (or a Centralized Hub Site) and can process 900 Gbps of ingress/egress traffic. It has the same capabilities as the Cell Site Router, however, can also be used for aggregating multiple cell site routers and connecting your Fronthaul to the Midhaul/Backhaul network.
   
   
 ![FH_3.png]({{site.baseurl}}/images/FH_3.png)
@@ -57,7 +57,7 @@ While you can take a look at the Data Sheet of these models [here](https://www.c
 - The Converged Packet Fronthaul portfolio is telemetry ready, supporting a wide range of Cisco’s native [YANG Data Models](https://github.com/YangModels/yang/tree/master/vendor/cisco/xr). There is limited support for IETF and OpenConfig Models too
 - These devices can be seamlessly integrated into Cisco’s [Crosswork Network Automation](https://www.cisco.com/c/en/us/products/cloud-systems-management/crosswork-network-automation/index.html) portfolio for enhanced management and programmability.  
 
-If you are interested in the Cell Site Router, you can connect with us to place an order. The device is running Cisco’s IOS-XR code base which is our common operating system across the physical and virtual platforms, and it is optimized for enhanced performance and emerging market needs.  
+If you are interested in the Cell Site Router, you can connect with us to place an order. The device is running Cisco’s IOS-XR code base, which is our common operating system across the physical and virtual platforms, and it is optimized for enhanced performance and emerging market needs.  
 
 We will follow this up with multiple blogs on this platform, going in-depth into the configuration and capabilities of the platform, so watch out for this space.  
 
