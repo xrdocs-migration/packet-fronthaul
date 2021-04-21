@@ -11,6 +11,12 @@ tags:
   - eCPRI
   - RoE
   - oRAN
+  - Cisco Converged Packet Fronthaul
+  - Converged Packet Fronthaul NCS540-FH
+  - Fronthaul
+  - Cisco Packet Fronthaul
+  - Cisco N540-FH-CSR-SYS
+  - Cisco N540-FH-AGG-SYS
 excerpt: A brief description of Cisco's Converged Packet Fronthaul Portfolio
 ---
 
