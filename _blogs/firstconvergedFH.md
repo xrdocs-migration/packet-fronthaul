@@ -16,17 +16,18 @@ tags:
 
 With the huge amount of technology innovation in the Radio Access Network driven by need for higher bandwidth, larger radio channels, increased network density, lower latency, power efficiency and enhanced inter-cell coordination (to name a few), every mobile operator is examining possible architectural modifications in their network. Exploring the large benefits of Centralized and/or Cloud/Virtualized RAN, Cisco has made successful inroads into the RAN space with a Packet Fronthaul product of their own.  
 
-<html><head><title>Fronthaul Options</title></head><body><img src = "https://github.com/xrdocs/packet-fronthaul/tree/gh-pages/images/FH_1.png"alt = "Fronthaul Options" height = "250" width = "250" /></body></html>
-  
+![FH_1.png]({{site.baseurl}}/images/FH_1.png)
+ 
   
 Even though there are existing (sub-optimal) Fronthaul solutions in the industry, there were a bunch of reasons that drove Cisco’s decision to develop a Packet fronthaul solution, some of them being:  
-1. Reduced Total Cost of Ownership as qualified by [ACG Research](https://www.cisco.com/c/dam/en/us/solutions/collateral/service-provider/mobile-internet/acg-fronthaul-architectures-for-5g-networks.pdf)  
-2. High Speed and ultra-low latency forwarding with Stat-Muxing benefits
-3. Flexible and Programmable architecture (ASIC + FPGA Based)
-4. Precise Timing and Synchronization Capabilities (Class C compliant)
-5. End to End IP based network for more visibility and easier integration with transport network
-6. Open and Automated Management (Easier Programmability with IP Based Fronthaul)
-7. Topology Independence (Ring, Mesh, Point to Point – Everything can be supported with SR-MPLS based Transport)  
+1. Service Convergence : 4G/5G Wireless Fronthaul, Midhaul, Backhaul And Wireline
+2. Reduced Total Cost of Ownership as qualified by [ACG Research](https://www.cisco.com/c/dam/en/us/solutions/collateral/service-provider/mobile-internet/acg-fronthaul-architectures-for-5g-networks.pdf)  
+3. High Speed and ultra-low latency forwarding with Stat-Muxing benefits
+4. Flexible and Programmable architecture (ASIC + FPGA Based)
+5. Precise Timing and Synchronization Capabilities (Class C compliant)
+6. End to End IP based network for more visibility and easier integration with transport network
+7. Open and Automated Management (Easier Programmability with IP Based Fronthaul)
+8. Topology Independence (Ring, Mesh, Point to Point – Everything can be supported with SR-MPLS based Transport)  
 
 Along with these advantages, the product is consistent with Cisco’s End to End IP network strategy built to run on a [Converged SDN Transport](https://www.cisco.com/c/en/us/solutions/service-provider/converged-sdn-transport.html) architecture. This essentially extends Cisco’s transport architecture to the Radio Access Network, seamlessly. If we are to focus only on the RAN, the Packet Fronthaul portfolio can support legacy LTE (CPRI Based), New Radio (5G eCPRI), oRAN (7.2x) and Enterprise (Ethernet) all in one platform.
   
@@ -45,8 +46,8 @@ While you can take a look at the Data Sheet of these models [here](https://www.c
 - The CSR and the AGG router can support upto 12 and 24 CPRI Ports respectively
 - Some of these CPRI Ports can act as Universal Ports wherein we can operate them for either CPRI or Ethernet traffic
 - Both routers can support 1G/10G/25G/100G Interfaces, while you can configure 2x100G on the CSR, you will be able to have 4x100G uplinks on the AGG router
-- CPRI Rate Options 3, 4, 5, 6, 7 and 8 are supported while eCPRI and oRAN based 7.2x traffic can also pass through these products
-- The Packet Fronthaul portfolio can operate seamlessly with the legacy CPRI based RAN vendors like Ericsson, Huawei, Nokia and Samsung 
+- CPRI Rate Options 3, 4, 5, 6, 7 and 8 are supported on CPRI Interfaces while eCPRI and oRAN based 7.2x traffic are supported on Ethernet and Universal ports
+- The Packet Fronthaul portfolio can operate seamlessly with any RAN vendor's CPRI, eCPRI, oRAN, BBU, RRU, O-DU, O-CU and O-RU including Ericsson, Nokia, Huawei and Samsung
 - There is support for IEEE 1914.3 Radio over Ethernet for the purpose of packetization of radio traffic
 - RoE Structure Agnostic Type-0 (Tunnel Mode) and Structure Agnostic Type-1 (Line Code Aware Mode) are supported on both platforms
 - Time Sensitive Networking (TSN) in the form of IEEE 802.1 Qbu or [Frame Preemption](https://www.ieee802.org/1/pages/802.1bu.html) is supported on both platforms, wherein you can preempt lower priority traffic to reduce the latency of higher priority traffic (like CPRI/eCPRI) in your network
