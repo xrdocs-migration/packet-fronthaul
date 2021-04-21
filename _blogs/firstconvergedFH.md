@@ -35,7 +35,7 @@ Along with these advantages, the product is consistent with Cisco’s End to End
 ![FH_2.png]({{site.baseurl}}/images/FH_2.png)
   
   
-Now, that we have understood the product placement and development reasoning, let me introduce the actual products to you. The Cisco NCS540-FH or NCS540 Fronthaul portfolio is based on two products, a Cell Site Router or the N540-FH-CSR-SYS and the Aggregation router or the N540-FH-AGG-SYS. The Cell Site router, as the name suggests, sits at a Cell Site (inside a Cabinet) and can carry 300 Gbps of ingress/egress traffic. It is capable of packetizing legacy (LTE based) CPRI traffic using IEEE 1914.3 Radio over Ethernet technology and carrying it on a point-to-point pseudo wire over an IP/Ethernet network.  
+Now, that we have understood the product placement and development reasoning, let me introduce the actual products to you. The Cisco **NCS540-FH** or NCS540 Fronthaul portfolio is based on two products, a Cell Site Router or the **N540-FH-CSR-SYS** and the Aggregation router or the **N540-FH-AGG-SYS**. The Cell Site router, as the name suggests, sits at a Cell Site (inside a Cabinet) and can carry 300 Gbps of ingress/egress traffic. It is capable of packetizing legacy (LTE based) CPRI traffic using IEEE 1914.3 Radio over Ethernet technology and carrying it on a point-to-point pseudo wire over an IP/Ethernet network.  
 This is the first ever Cisco platform capable of processing and packetizing CPRI constant rate bit streams. The Aggregation router sits at a Far Edge Data Center (or a Centralized Hub Site) and can process 900 Gbps of ingress/egress traffic. It has the same capabilities as the Cell Site Router but can also be used for aggregating multiple cell site routers and connecting your Fronthaul to the Midhaul/Backhaul network.
   
   
@@ -54,10 +54,10 @@ While you can take a look at the Data Sheet of these models [here](https://www.c
 - Both platforms are built for ultra-low latency applications and are capable of <10 µs of forwarding latency.
 - SyncE, PTP and Class-C Boundary clocks are supported on both platforms
 - Both routers support the existing routing and switching feature-set of the [NCS540 portfolio](https://www.cisco.com/c/en/us/products/collateral/routers/network-convergence-system-500-series-routers/datasheet-c78-740296.html)
-- The Converged Packet Fronthaul portfolio is telemetry ready, supporting a wide range of Cisco’s native YANG Data Models. There is limited support for IETF and OpenConfig Models too
+- The Converged Packet Fronthaul portfolio is telemetry ready, supporting a wide range of Cisco’s native [YANG Data Models](https://github.com/YangModels/yang/tree/master/vendor/cisco/xr). There is limited support for IETF and OpenConfig Models too
 - These devices can be seamlessly integrated into Cisco’s [Crosswork Network Automation](https://www.cisco.com/c/en/us/products/cloud-systems-management/crosswork-network-automation/index.html) portfolio for enhanced management and programmability.  
 
-If you are interested in the Cell Site Router, you can already connect with us to place an order. The device is running Cisco’s IOS-XR code base which is our common operating system across the physical and virtual platforms, and it is optimized for enhanced performance and emerging market needs.  
+If you are interested in the Cell Site Router, you can connect with us to place an order. The device is running Cisco’s IOS-XR code base which is our common operating system across the physical and virtual platforms, and it is optimized for enhanced performance and emerging market needs.  
 
 We will follow this up with multiple blogs on this platform, going in-depth into the configuration and capabilities of the platform, so watch out for this space.  
 
