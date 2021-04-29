@@ -60,17 +60,20 @@ The details of the RoE Structure-Agnostic Mappers (Supported on the NCS540-FH) a
 ![FH_7.png]({{site.baseurl}}/images/FH_7.png)
 
 
-## Packetizing the CPRI
+## Packetizing the CPRI (A Sample Deployment)
 
 The basic building blocks of packetizing CPRI is summarized below:
 1. A **Control Plane** consisting of the IGP (OSPF/ISIS) that will connect the Cell Site Router (CSR) and the Aggregation Router (and any P routers if applicable)
 2. A **Data/Forwarding Plane** with SR-MPLS (tightly coupled with your IGP) where we can define SR-TE policies based on constraints that a particular service requires (In case of CPRI, latency is a known constraint)
-3. PM/SR-PM or Segment-Routing **Performance Measurement** helps in determining end to end latency and populating that information into the IGP Database to be used for path selection algorithms.
+3. PM/SR-PM or Segment-Routing **Performance Measurement** (and SR-TE) helps in determining end to end latency and populating that information into the IGP Database to be used for path selection algorithms.
 4. QoS or **Quality of Service** is required for differential treatment of radio traffic based on service level requirements of Operator. In our case, CPRI is given the highest priority
 5. **Timing** through Synchronous Ethernet and Precision Time Protocol is an essential piece of this whole solution which helps the Baseband Unit to be in sync with the Remote Radio Unit and the same clock is also used to derive any circuits between the BBU and RRU
 6. **CPRI Rate** is determined by the Antenna x Carrier (AxC) requirements at the Cell Site along with the MIMO configuration. As mentioned earlier, CPRI Rates 3 to 8 can be configured on the radio interfaces of the CSR and the Aggregation router (As the solution is bookended do note that the rates need to be the same in one CPRI/RoE flow)
 7. RoE or **Radio over Ethernet** Mapping/De-Mapping is the most important piece of this puzzle, as it will effectively packetize/de-packetize or map/de-map the CPRI traffic into an ethernet frame and back using Encapsulation techniques as specified in IEEE 1914.3. The Type-1 Mapper can save upto 20% of bandwidth as it maps 10 bits of line codes into 8 bits in the packet network. 
 8. Finally, a Layer 2 Transport mechanism like **L2VPN VPWS** or EVPN VPWS will assist in carrying the RoE packets from the CSR to the Aggregation router over a SR-MPLS based packet network  
+
+
+Please note that, while the above sample deployment talks about SR-MPLS as the Forwarding Plane Protocol, we can use traditional MPLS (with LDP or RSVP-TE) as well in place of SR-MPLS. 
 
 The topology below shows how our solution can be positioned between the REC and RE and is able to packetize/de-packetize CPRI bit streams
 
