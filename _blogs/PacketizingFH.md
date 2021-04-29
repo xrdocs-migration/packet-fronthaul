@@ -73,7 +73,7 @@ The basic building blocks of packetizing CPRI is summarized below:
 8. Finally, a Layer 2 Transport mechanism like **L2VPN VPWS** or EVPN VPWS will assist in carrying the RoE packets from the CSR to the Aggregation router over a SR-MPLS based packet network  
 
 
-Please note that, while the above sample deployment talks about SR-MPLS as the Forwarding Plane Protocol, we can use traditional MPLS (with LDP or RSVP-TE) as well in place of SR-MPLS. 
+Please note that, while the above sample deployment talks about SR-MPLS as the Forwarding Plane Protocol, we can even use traditional MPLS (with LDP or RSVP-TE) in place of SR-MPLS. 
 
 The topology below shows how our solution can be positioned between the REC and RE and is able to packetize/de-packetize CPRI bit streams
 
