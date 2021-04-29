@@ -19,13 +19,13 @@ tags:
   - Cisco Converged Packet Fronthaul
 ---
 
-Hope you guys managed to spend some time on my last [blog](https://xrdocs.io/packet-fronthaul/blogs/firstconvergedFH/) where I 
+Hope you managed to spend some time on my last [blog](https://xrdocs.io/packet-fronthaul/blogs/firstconvergedFH/) where I 
 - Introduced Cisco’s Converged Packet Fronthaul Portfolio
 - Summarized the benefits of a packetized fronthaul solution over other (sub-optimal) optical fronthaul solutions in the industry right now
 - Walked through key highlights of our Packet Fronthaul products 
   
 …and with that information, I am hoping, it will help you to justify migrating to a packet based fronthaul from the fronthaul solution currently deployed at your Radio Access Network.
-In this Blog, I will spend some time on the technicalities of packetizing a traditional RAN (4G LTE), one which accounts for more than 70-80% of world’s RAN deployment.  
+In this Blog, I will describe the technicalities of packetizing a traditional RAN (4G LTE), one which accounts for more than 70-80% of world’s RAN deployment.  
 
 ## CPRI
 
@@ -51,9 +51,10 @@ Now, let us talk a bit about the CPRI Rates and the relevant support on our NCS5
 ![FH_6.png]({{site.baseurl}}/images/FH_6.png)
 
 
-## RoE
+## Radio over Ethernet (RoE) IEEE 1914.3
 
-We have, so far, only talked about CPRI or CPRI based constant bit rate of traffic, let us shift our focus on how to packetize these constant bit streams. [IEEE 1914.3](https://standards.ieee.org/standard/1914_3-2018.html) Radio over Ethernet is a standard specification that defines encapsulation and mapping techniques of radio protocols, for transport over Ethernet frames. While, the Structure-Agnostic mapping technique is provided for any digitized radio data, the Structure-Aware mapping is only applicable to CPRI. Our NCS540-FH platform supports both Structure-Agnostic mapping (and de-mapping) methods of CPRI based bit streams. The IEEE 1914.3 standard also fosters interoperability among implementations by defining the framing, encapsulation of the information and the common Ethernet Type (0xFC3D) for Radio over Ethernet purposes.   
+We have, so far, only talked about CPRI or CPRI based constant bit rate of traffic, but in order to carry CPRI traffic over a packet based network an industry defined technique is needed to transmit all radio data types over a traditional Ethernet based Fronthaul network.  
+[IEEE 1914.3](https://standards.ieee.org/standard/1914_3-2018.html) Radio over Ethernet is a standard specification that defines encapsulation and mapping techniques of radio protocols, for transport over Ethernet frames. While, the Structure-Agnostic mapping technique is provided for any digitized radio data, the Structure-Aware mapping is only applicable to CPRI. Our NCS540-FH platform supports both Structure-Agnostic mapping (and de-mapping) methods of CPRI based bit streams. The IEEE 1914.3 standard also fosters interoperability among implementations by defining the framing, encapsulation of the information and the common Ethernet Type (0xFC3D) for Radio over Ethernet purposes.   
 The details of the RoE Structure-Agnostic Mappers (Supported on the NCS540-FH) and the RoE header is shared below:
 
 ![FH_7.png]({{site.baseurl}}/images/FH_7.png)
