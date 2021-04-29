@@ -2,6 +2,21 @@
 published: false
 date: '2021-04-29 14:39 +0530'
 title: Packetizing Mobile Fronthaul with Cisco NCS540-FH
+author: Sounak Mukherjee
+excerpt: Packetizing the CPRI on your Cisco NCS540-FH Router
+tags:
+  - CPRI
+  - RoE
+  - IEEE 1914.3
+  - RoE Structure Agnostic Mapper
+  - NCS540-FH
+  - Packetizing CPRI
+  - Packetizing CPRI with NCS540-FH
+  - Packetizing CPRI with Cisco NCS540-FH
+  - Cisco NCS540-FH CPRI RoE
+  - Packetizing Mobile fronthaul Cisco
+  - Cisco Mobile Fronthaul
+  - Cisco Converged Packet Fronthaul
 ---
 
 Hope you guys managed to spend some time on my last [blog](https://xrdocs.io/packet-fronthaul/blogs/firstconvergedFH/) where I 
@@ -72,5 +87,3 @@ Hope this blog was informative and it has helped you to understand how NCS540-FH
 
 
 ---------------------------------------------------------------
-
-
