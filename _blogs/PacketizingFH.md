@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 date: '2021-04-29 14:39 +0530'
 title: Packetizing Mobile Fronthaul with Cisco NCS540-FH
 author: Sounak Mukherjee
