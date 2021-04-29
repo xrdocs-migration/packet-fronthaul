@@ -42,7 +42,7 @@ In a Cloud-RAN or Centralized-RAN deployment, the Remote Radio Unit (RRU) sits a
   
 ![FH_5.png]({{site.baseurl}}/images/FH_5.png)
 
-To understand how CPRI carries IQ or Radio resources, this is an excerpt from [Anritsu]  (https://www.anritsu.com/en-us/test-measurement/technologies/cpri-and-obsai).  
+To understand how CPRI carries IQ or Radio resources, this is an excerpt from [Anritsu](https://www.anritsu.com/en-us/test-measurement/technologies/cpri-and-obsai).  
 _“A CPRI link transports digitized RF signals (antenna-carriers) in a complex baseband format. Each sample has an in-phase (I) and quadrature (Q) component. The CPRI specification was specifically created to handle the signal data in this format. The I and Q samples are interleaved together to create a single word. Those words are put together in a pattern to satisfy the target sampling rate and bit width of the signal.”_  
 
 
