@@ -76,7 +76,8 @@ The topology below shows how our solution can be positioned between the REC and 
 ![FH_8.png]({{site.baseurl}}/images/FH_8.png)
 
 
-Hope this blog was informative and it has helped you to understand how NCS540-FH is packetizing and de-packetizing CPRI based radio data. In the next few blogs, I will talk to you about deploying the packet fronthaul router based on the bandwidth/resource requirements at your Cell Site.
+Hope this blog was informative and it has helped you to understand how NCS540-FH is packetizing and de-packetizing CPRI based radio data. In the next few blogs, I will talk to you about deploying the packet fronthaul router based on the bandwidth/resource requirements at your Cell Site.  
+
 
 
 ---------------------------------------------------------------
