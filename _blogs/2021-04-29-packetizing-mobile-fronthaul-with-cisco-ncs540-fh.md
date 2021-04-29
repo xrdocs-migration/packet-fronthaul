@@ -58,6 +58,19 @@ The basic building blocks of packetizing CPRI is summarized below:
 
 The topology below shows how our solution can be positioned between the REC and RE and is able to packetize/de-packetize CPRI bit streams
 
+![FH_8.png]({{site.baseurl}}/images/FH_8.png)
 
+
+Hope this blog was informative and it has helped you to understand how NCS540-FH is packetizing and de-packetizing CPRI based radio data. In the next few blogs, I will talk to you about deploying the packet fronthaul router based on the bandwidth/resource requirements at your Cell Site.
+
+
+---------------------------------------------------------------
+
+
+**Author : Sounak Mukherjee**  
+**Role : Technical Marketing Engineer | 5G | Mobile Fronthaul**
+
+
+---------------------------------------------------------------
 
 
