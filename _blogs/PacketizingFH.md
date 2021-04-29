@@ -43,7 +43,7 @@ In a Cloud-RAN or Centralized-RAN deployment, the Remote Radio Unit (RRU) sits a
 ![FH_5.png]({{site.baseurl}}/images/FH_5.png)
 
 To understand how CPRI carries IQ or Radio resources, this is an excerpt from [Anritsu](https://www.anritsu.com/en-us/test-measurement/technologies/cpri-and-obsai).  
-_“A CPRI link transports digitized RF signals (antenna-carriers) in a complex baseband format. Each sample has an in-phase (I) and quadrature (Q) component. The CPRI specification was specifically created to handle the signal data in this format. The I and Q samples are interleaved together to create a single word. Those words are put together in a pattern to satisfy the target sampling rate and bit width of the signal.”_  
+  _“A CPRI link transports digitized RF signals (antenna-carriers) in a complex baseband format. Each sample has an in-phase (I) and quadrature (Q) component. The CPRI specification was specifically created to handle the signal data in this format. The I and Q samples are interleaved together to create a single word. Those words are put together in a pattern to satisfy the target sampling rate and bit width of the signal.”_  
 
 
 Now, let us talk a bit about the CPRI Rates and the relevant support on our NCS540-FH platform. The CPRI rates (Options) that are commonly used to carry radio resources (Antenna x Carrier)  are between rates 1 and 10 as part of the Split-8 RAN Architecture (We will discuss Functional Splits in a later blog). The most used rates, though, are between 3 (2.45 Gbps) and 8 (10.1 Gbps) and can be supported using TenGigabit Interfaces. Our Converged Packet Fronthaul Portfolio - The NCS540-FH platform supports these rates (3,4,5,6,7 & 8).  
