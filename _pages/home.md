@@ -16,7 +16,7 @@ feature_row2:
   - image_path: blog.png
     alt: "fully responsive"
     title: "Blogs"
-    excerpt: 'Periodic Blogs to keep you updated on Cisco's Mobile Fronthaul Portfolio (NCS540-FH & More)'
+    excerpt: 'Periodic Blogs to keep you updated on Cisco's Mobile Fronthaul Portfolio'
     url: "/blogs"
     btn_label: "Check out the Blogs!"
     btn_class: "btn--inverse"
@@ -24,7 +24,7 @@ feature_row3:
   - image_path: tutorial-board.jpg
     alt: "fully responsive"
     title: "Tutorials"
-    excerpt: 'Technical Training/Tutorials on Cisco's Mobile Fronthaul Products (NCS540-FH & More)'
+    excerpt: 'Technical Training/Tutorials on Cisco's Mobile Fronthaul Products'
     url: "/tutorials"
     btn_label: "Check out the Tutorials!"
     btn_class: "btn--inverse"
