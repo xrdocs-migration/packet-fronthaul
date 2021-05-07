@@ -13,20 +13,20 @@ feature_row1:
     btn_label: "Check out the docs!"
     btn_class: "btn--inverse"
 feature_row2:
-  - image_path: Sounak_Blog.jpg
+  - image_path: blog.png
     alt: "fully responsive"
     title: "Blogs"
-    excerpt: 'Periodic Blogs to keep you updated on the latest tools, applications, events and architectural changes'
+    excerpt: 'Periodic Blogs to keep you updated on Cisco's Mobile Fronthaul Portfolio (NCS540-FH & More)'
     url: "/blogs"
     btn_label: "Check out the Blogs!"
     btn_class: "btn--inverse"
 feature_row3:
-  - image_path: Sounak_Tutorial.jpg
+  - image_path: tutorial-board.jpg
     alt: "fully responsive"
     title: "Tutorials"
-    excerpt: 'Step by Step Tutorials to catch the gotchas!'
+    excerpt: 'Technical Training/Tutorials on Cisco's Mobile Fronthaul Products (NCS540-FH & More)'
     url: "/tutorials"
-    btn_label: "Check out the tutorials!"
+    btn_label: "Check out the Tutorials!"
     btn_class: "btn--inverse"
 
 ---
