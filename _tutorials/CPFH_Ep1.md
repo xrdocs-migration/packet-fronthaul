@@ -2,7 +2,7 @@
 published: true
 date: '2021-05-07 17:00 +0530'
 title: >-
-  Deploying Converged Packet Fronthaul - CPRI Overview | LTE Bandwidth
+  Deploying Converged Packet Fronthaul - CPRI Overview, LTE Bandwidth
   Calculation
 author: Sounak Mukherjee
 excerpt: CPRI Overview & LTE Bandwidth Calculation
