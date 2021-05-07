@@ -19,5 +19,5 @@ tags:
 
 In this video, we give you an overview of the CPRI Protocol that will form the basis of Fronthaul Capacity Planning for LTE based Radios/RRUs.  
 
-<iframe class="responsive" width="560" height="315" src="https://www.youtube.com/embed/Dna59DZlLmQ?autoplay=1" frameborder="0" allowfullscreen></iframe>{: .align-center}
+<iframe class="responsive" width="560" height="315" src="https://www.youtube.com/watch?v=QpOM9m0atp4?autoplay=1" frameborder="0" allowfullscreen></iframe>{: .align-center}
 .
