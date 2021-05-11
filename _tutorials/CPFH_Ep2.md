@@ -1,7 +1,11 @@
 ---
 published: false
 date: '2021-05-11 12:26 +0530'
-title: ''
+title: >-
+  Deploying Converged Packet Fronthaul - LTE Resource Allocation (Frequency &
+  Time Domain)
+author: Sounak Mukherjee
+excerpt: 'LTE Resource Allocation for NCS540-FH '
 ---
 In this video, we will talk about Frequency Domain and Time Domain parameters as part of the LTE Resource Allocation for our NCS540-FH Converged Packet Fronthaul Device. 
 
