@@ -21,4 +21,4 @@ tags:
 ---
 In this video, we will talk about Frequency Domain and Time Domain parameters as part of the LTE Resource Allocation for our NCS540-FH Converged Packet Fronthaul Device. 
 
-[Youtube Video Linked Here.](https://www.youtube.com/watch?v=QpOM9m0atp4)
+[Youtube Video Linked Here.](https://www.youtube.com/watch?v=5sXJ20scW6c)
