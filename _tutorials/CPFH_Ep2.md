@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 date: '2021-05-11 12:26 +0530'
 title: >-
   Deploying Converged Packet Fronthaul - LTE Resource Allocation (Frequency &
