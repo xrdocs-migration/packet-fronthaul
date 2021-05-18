@@ -20,4 +20,4 @@ tags:
 
 In this video, we give you an overview of the important LTE resources, which is Sampling Frequency and Sampling Interval, that will form the basis of Fronthaul Capacity Planning for LTE based Radios/RRUs.  
 
-[Youtube Video Linked Here.](https://www.youtube.com/watch?v=QpOM9m0atp4)
+[Youtube Video Linked Here.](https://www.youtube.com/watch?v=H4a7drUAA-8)
