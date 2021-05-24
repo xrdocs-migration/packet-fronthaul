@@ -1,7 +1,9 @@
 ---
 published: true
 date: '2021-05-11 12:26 +0530'
-title: Deploying Converged Packet Fronthaul - CPRI Rate Options Calculation
+title: >-
+  Deploying Converged Packet Fronthaul - LTE Resource Allocation (Frequency &
+  Time Domain)
 author: Sounak Mukherjee
 excerpt: 'LTE Resource Allocation for NCS540-FH '
 tags:
@@ -19,4 +21,4 @@ tags:
 ---
 In this video, we will talk about Frequency Domain and Time Domain parameters as part of the LTE Resource Allocation for our NCS540-FH Converged Packet Fronthaul Device. 
 
-[Youtube Video Linked Here.](https://www.youtube.com/watch?v=ldwATqsg8i4)
+[Youtube Video Linked Here.](https://www.youtube.com/watch?v=5sXJ20scW6c)
