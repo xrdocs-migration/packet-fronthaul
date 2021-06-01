@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 date: '2021-06-01 17:20 +0530'
 title: Deploying Converged Packet Fronthaul - Final Capacity Planning
 author: Sounak Mukherjee
