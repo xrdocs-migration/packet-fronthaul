@@ -19,7 +19,7 @@ tags:
   - Cisco Converged Packet Fronthaul
 ---
 
-Hope you managed to spend some time on my last [blog](https://xrdocs.io/packet-fronthaul/blogs/firstconvergedFH/) where I 
+Hope you managed to spend some time on my last [blog]({{site.url}}/packet-fronthaul/blogs/firstconvergedFH/) where I 
 - Introduced Cisco’s Converged Packet Fronthaul Portfolio
 - Summarized the benefits of a packetized fronthaul solution over other (sub-optimal) optical fronthaul solutions in the industry right now
 - Walked through key highlights of our Packet Fronthaul products 
